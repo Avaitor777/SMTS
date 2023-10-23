@@ -71,19 +71,19 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <div class="modal-title">You are about to remove a customer record.</div>
+          <div class="modal-title">You are about to remove a student record.</div>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <p>
-            This will remove the customer record of <b class="fw-bold"><%= student.firstName %> <%= student.lastName %></b><br/>
+            This will remove the student record of <b class="fw-bold"><%= student.firstName %> <%= student.lastName %></b><br/>
             Are you sure?
           </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           <form action="/edit/<%= student._id %>?_method=DELETE" method="POST" class="position-relative">
-            <button type="submit" class="btn btn-primary">Yes, Remove Customer</button>
+            <button type="submit" class="btn btn-primary">Yes, Remove Student</button>
           </form>
         </div>
       </div>
