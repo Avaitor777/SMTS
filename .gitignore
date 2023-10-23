@@ -1,0 +1,24 @@
+# Dependency directories
+node_modules/
+
+# Environment variables file
+.env
+
+# Logs
+logs
+*.log
+
+# Output files
+build/
+dist/
+out/
+
+# OS or editor-generated files
+.DS_Store
+Thumbs.db
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
